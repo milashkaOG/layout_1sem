@@ -21,6 +21,8 @@ body{
     margin: 0 auto;
 }
 
+/* HEADER начало */
+
 header{
     display:flex;
     justify-content:space-between;
@@ -67,12 +69,16 @@ header{
     bottom:10px;
 }
 
+/* HEADER конец */
+
 main{
     padding:0 65px;
     max-height: 100%;
     max-width:1440px;
 
 }
+
+/* 1ЫЙ БЛОК "ALWAYS READY TO CODE" начало */
 
 .top-block{
     display: flex;
@@ -181,6 +187,10 @@ main{
 
 }
 
+/* 1ЫЙ БЛОК "ALWAYS READY TO CODE" конец */
+
+/* 2ОЙ БЛОК "SELECT PROJECT начало */
+
 .second-block{
     margin-bottom:339px;
 }
@@ -197,6 +207,10 @@ main{
     font-weight: 400;
     color: #999795;
 }
+
+/* 2ОЙ БЛОК "SELECT PROJECT конец */
+
+/* 3ИЙ БЛОК "THINK CI/CD" начало */
 
 .third-block{
     margin-bottom:337px;
@@ -247,6 +261,9 @@ main{
     padding: 7px 24px 8px 24px;  
 }
 
+/* 3ИЙ БЛОК "THINK CI/CD" конец */
+
+/* 4ЫЙ БЛОК "REMOTE FIRST" начало */
 
 .block-name{
     font-weight: 700;
@@ -330,6 +347,8 @@ main{
     margin-right:16px;
 }
 
+/* 4ЫЙ БЛОК "REMOTE FIRST" конец */
+
 /* #fire-ext{
     position: relative;
     display:flex;
@@ -356,6 +375,8 @@ main{
     color: #12100C;
     margin:0;
 } */
+
+/* 5ЫЙ БЛОК "USED BY" начало */
 
 .comments{
     display:flex;
@@ -415,6 +436,10 @@ main{
     font-weight: 700;
 }
 
+/* 5ЫЙ БЛОК "USED BY" конец */
+
+/* 6ОЙ БЛОК "COMPANY ICONS" начало */
+
 .sixth-block{
     margin-bottom:198px;
 }
@@ -451,6 +476,10 @@ main{
 .logo-line-second > .logo-solo > img{
     vertical-align: middle;
 }
+
+/* 6ОЙ БЛОК "COMPANY ICONS" конец */
+
+/* 7ОЙ БЛОК "GET STARTED" начало */
 
 .seventh-block{
     margin-bottom:160px
@@ -611,6 +640,10 @@ main{
     
 }
 
+/* 7ОЙ БЛОК "GET STARTED" конец */
+
+/* FOOTER начало */
+
 footer{
     background: #F9F9F9;
 }
@@ -695,3 +728,5 @@ footer{
 #footerCR-icons img:nth-child(3){
     margin-right:0;
 }
+
+/* FOOTER конец */
